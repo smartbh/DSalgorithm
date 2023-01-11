@@ -50,8 +50,8 @@ void merge_sort(int data[], int left, int right)
 
 int main()
 {
-    int data[] = {2, 6,7,4,1,8,5,3};
-    merge_sort(data,0,7);
+    int data[] = {2, 6,7,4,1,8,5,3,6,8,9,2,1,9,0,4,3,2};
+    merge_sort(data,0,17);
 
     for(auto n : data)
         cout << n << ", ";
