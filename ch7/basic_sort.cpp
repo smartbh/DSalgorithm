@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//버블정렬
 void bubble_sort(int data[], int n)
 {
     for(int i = 0; i<n-1; i++)
@@ -15,6 +16,7 @@ void bubble_sort(int data[], int n)
     }
 }
 
+//선택정렬
 void selection_sort(int data[], int n)
 {
     
