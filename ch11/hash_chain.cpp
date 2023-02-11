@@ -39,13 +39,19 @@ class hash_set
                 entries.erase(it);
         }
 
-        //void print()
-        //{
-        //    for(auto n : data)
-        //    {
-        //    }
-        //    std::cout << std::endl;
-        //}
+        void print()
+        {
+            for(int i = 0; i<sz; i++)
+            {
+                std::cout << i << " : ";
+                for(auto n : data[i])
+                {
+                    std::cout << n << ", ";
+                }
+                std::cout << std::endl;
+            }
+            std::cout << std::endl;
+        }
 };
 
 int main()
@@ -83,7 +89,7 @@ int main()
     else
         std::cout << value << " is not found!" << std::endl;
 
-    //num_set.print();
+    num_set.print();
 
     return 0;
 }
