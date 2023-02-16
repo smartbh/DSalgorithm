@@ -57,7 +57,7 @@ vector<int> memo(50,-1); //50개 -1로 초기화 생성
 int fibo2(int n)
 {
     if( n < 2)
-        return 2;
+        return n;
     
     if(memo[n] != -1) //만약 이미 방문해서 있다면 memo[n]의 값을 반환
         return memo[n];
